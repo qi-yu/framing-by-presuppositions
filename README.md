@@ -13,8 +13,8 @@ Specifically, the usage of iterative adverbs (e.g., *again*) in three different 
 ## Scripts and Model
 All results reported in the paper are to be found in the ```.ipynb```-scripts. 
 
-- ```1_finetune_BERT.ipynb```: Fine-tuning [bert-base-german-cased](https://huggingface.co/bert-base-german-cased) to vectorize *sentences containing iterative adverbs* (iterAdv-S).  
-The tine-tuned model is to be found [here](https://drive.google.com/drive/folders/1zZQ-pnl1-vRhLKgUKI8sVrEvBaTKi95m).
+- ```1_finetune_BERT.ipynb```: Fine-tuning [bert-base-german-cased](https://huggingface.co/bert-base-german-cased) to vectorize sentences containing iterative adverbs (iterAdv-S).  
+The tine-tuned model is to be found [here](https://drive.google.com/drive/folders/1R9Li24iU_QdV2-0Xm7F1QlXHVbZ1WXuK).
   
 - ```2_analyze_iterAdv-S.ipynb```: Analyzing the topic preferences among *iterAdv-S* in different newspapers by 1) clustering the *iterAdv-S* 
   and 2) mining keywords in each cluster using the measure *PMI-freq* (Jin et al., 2020).
