@@ -1,6 +1,6 @@
 # A Computational Study of Framing Evoked by Presuppositions
 
-## Overview
+## 1. About
 
 This repository contains source code of the paper:
 
@@ -10,7 +10,7 @@ The paper analyzes a type of political framing strategy which is easy to be negl
 framing evoked by [presupposition-triggers](https://plato.stanford.edu/entries/presupposition/). 
 Specifically, the usage of iterative adverbs (e.g., *again*) in three different German newspapers is investigated as a study case. 
 
-## Scripts and Model
+## 2. Scripts and Model
 All results reported in the paper are to be found in the ```.ipynb```-scripts. 
 
 - ```1_finetune_BERT.ipynb```: Fine-tuning [bert-base-german-cased](https://huggingface.co/bert-base-german-cased) to vectorize sentences containing iterative adverbs (iterAdv-S).  
@@ -22,7 +22,7 @@ The fine-tuned model is to be found [here](https://drive.google.com/drive/folder
 For more details, please refer to Section 4 of the paper.
 
 
-## Citing the Paper
+## 3. Cite the Paper
 ```
 @inproceedings{yu-2022-dozens,
     title = "{``}Again, Dozens of Refugees Drowned{''}: A Computational Study of Political Framing Evoked by Presuppositions",
@@ -37,5 +37,5 @@ For more details, please refer to Section 4 of the paper.
 }
 ```
 
-## Acknowledgement
+## 4. Acknowledgement
 This project is funded by the Deutsche Forschungsgemeinschaft (DFG – German Research Foundation) under Germany‘s Excellence Strategy – EXC-2035/1 – 390681379.
